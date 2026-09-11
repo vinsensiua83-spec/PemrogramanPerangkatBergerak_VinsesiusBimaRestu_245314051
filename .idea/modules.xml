@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Tugas1.iml" filepath="$PROJECT_DIR$/Tugas1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tugas2/Tugas2.iml" filepath="$PROJECT_DIR$/Tugas2/Tugas2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tugas3/Tugas3.iml" filepath="$PROJECT_DIR$/Tugas3/Tugas3.iml" />
     </modules>
   </component>
 </project>
