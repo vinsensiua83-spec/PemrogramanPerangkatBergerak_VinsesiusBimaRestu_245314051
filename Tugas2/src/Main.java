@@ -1,18 +1,23 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        // Menyimpan biodata mahasiswa
-        String nama = "Andi Saputra";
-        int umur = 19;
-        double tinggiBadan = 168.5;
-        boolean mahasiswaAktif = true;
-        char golonganDarah = 'B';
+        // Meminta input suhu Celsius
+        System.out.print("Masukkan suhu Celsius: ");
+        Double celsius = input.nextDouble();
 
-        // Menampilkan biodata
-        System.out.println("Nama            : " + nama);
-        System.out.println("Umur            : " + umur + " tahun");
-        System.out.println("Tinggi badan    : " + tinggiBadan + " cm");
-        System.out.println("Mahasiswa aktif : " + mahasiswaAktif);
-        System.out.println("Golongan darah  : " + golonganDarah);
+        // Menghitung Fahrenheit
+        Double fahrenheit = (celsius * 9 / 5) + 32;
+
+        // Menghitung Kelvin
+        Double kelvin = celsius + 273.15;
+
+        // Menampilkan hasil
+        System.out.println("Fahrenheit : " + fahrenheit);
+        System.out.println("Kelvin     : " + kelvin);
+
+        input.close();
     }
 }
